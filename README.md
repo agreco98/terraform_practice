@@ -2,20 +2,14 @@
 
 Test.
 
-
-
 ## 📌 Purpose
 
 Purpose.
-
-
 
 ## 🧭 Flow Overview
 
 1. Test
    - Test Flow
-
-
 
 ## 📁 Project Structure & Conventions
 
@@ -37,7 +31,7 @@ Purpose.
 
 ---
 
-### ➕ Adding a New Lambda
+#### ➕ Adding a New Lambda
 
 1. Create a folder under `src/lambdas/lambda_<name>/`:
    - Include `main.py`, `__init__.py`, and optionally `requirements.txt`
@@ -49,7 +43,7 @@ Purpose.
 
 ---
 
-### ➕ Adding a New API Method
+####### ➕ Adding a New API Method
 
 1. Create a new file: `api_method_<resource>_<METHOD>.tf`
 2. Update `api_resource.tf` to register the new route
@@ -69,7 +63,7 @@ pytest src/tests/
 
 ## API Usage
 
-### Endpoint
+#### Endpoint
 
 POST
 
